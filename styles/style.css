@@ -4,6 +4,7 @@
 }
 /* Common Styles  */
 .container{
+    width: 100%;
     max-width: 1551px;
     margin: auto;
 }
@@ -34,4 +35,55 @@ nav{
     justify-content: space-between;
     color: #575757;
     gap: 12px;
+}
+
+
+ /* Code Connect Create Starts */
+.hero{
+    background-image:url("../assets/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 786px;
+    margin-top: 36.5px;
+    padding-top: 110px;
+}
+.hero-content-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.hero-title{
+    margin-bottom: 16px;
+}
+.hero-title-text{
+    color: white;
+    font-family: Inter;
+    font-size: 80px;
+}
+.hero-paragraph{
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 829px;
+    max-height: 108px;
+    margin: 0px auto;
+}
+.hero-btn{
+    margin-top: 278px;
+    width: 282px;
+    height: 74px;
+}
+.hero-btn-text{
+    font-size: 24px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: 700px;
+    border-radius: 10px;
+    padding: 26px 62px;
+    border: none;
 }
