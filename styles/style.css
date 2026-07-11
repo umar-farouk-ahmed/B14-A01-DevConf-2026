@@ -1,13 +1,37 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 /* Common Styles  */
+.container{
+    max-width: 1551px;
+    margin: auto;
+}
 
-
-
+.common-btn{
+     background-color: #1D4ED8;
+     color: #FFFFFF;
+     font-family: Inter;
+     font: 16px;
+     font-weight: bold;
+     border-radius: 12px;
+     padding: 12px;
+     border: none;
+}
 /* Navbar Starts */
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top:23.5px !important; 
+    font-family: Arimo;
+    font-size: 16px ;
+    font-weight:400;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    color: #575757;
+    gap: 12px;
 }
