@@ -45,7 +45,7 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    min-height: 786px;
+    max-height: 786px;
     margin-top: 36.5px;
     padding-top: 110px;
 }
@@ -74,7 +74,7 @@ nav{
     margin: 0px auto;
 }
 .hero-btn{
-    margin-top: 278px;
+    margin: 278px 0px 79px 0px;
     width: 282px;
     height: 74px;
 }
@@ -87,3 +87,66 @@ nav{
     padding: 26px 62px;
     border: none;
 }
+
+/* Meet The Speakers Starts */
+.speaker-container>p{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.speaker-heading{
+    color: #000102;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+.speakers-parent{
+    max-width: 1440px;
+    max-height: 1279px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:80px 60px;
+    gap: 32px;
+}
+.speaker{
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.speaker img{
+    width: 100%;
+    height: 324px;
+    display: block;
+}
+.speaker-title{
+    color: #2563ebFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight:600;
+    line-height: 1.8;
+    padding: 24px 0px 8px 24px;
+}
+.speaker h2{
+    color: #0D1B2A;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:1.375;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+.speaker-info{
+    color: #575757FF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+/* Meet The Speakers Ends */
