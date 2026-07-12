@@ -150,3 +150,110 @@ nav{
     margin-bottom: 24px;
 }
 /* Meet The Speakers Ends */
+
+/* Spot Starts  */
+.spot-parent{
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    padding: 0px 60px 80px 60px;
+}
+.spot-heading > p{
+    font-family: Inter;
+    color: #0D1B2A;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.spot-description > p{
+    margin-top: 12px;
+    color: #575757FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.spot-card-parent{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 1320px;
+    height: auto;
+    padding-top:48px ;
+}
+.spot-card{
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 32px;
+    background: #ffffffFF;
+    max-width: 370px;
+    max-height: 444px;
+}
+.card-name{
+    color: #888888FF;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.spot-card-starting>h2{
+    font-family: Inter;
+    font-size: 44px;
+    color: #0d1b2aFF;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.spot-person{
+    font-family: Inter;
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.spot-card hr{
+    width: 304px;
+    height: 1px;
+    background: #e5e7ebFF;
+    margin-bottom: 20px;
+}
+.spot-card-points ul{
+    padding-left: 20px;
+}
+.spot-card-points ul li::marker{
+    color:#2563EB;
+}
+.spot-card-points ul li{
+    font-family: Inter;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.spot-card-button{
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #2563ebFF;
+    color: #2563ebFF;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.special-spot-card-points ul li{
+    color: white;
+}
+/* Spot Ends  */
