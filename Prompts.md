@@ -1,0 +1,1 @@
+Read and understand my index.html and style.css files . Now, after secure your spot section you should add something meaningfull and relevant section . Use only html and css . I think add something related to Past Highlights . Use comments for understanding .
