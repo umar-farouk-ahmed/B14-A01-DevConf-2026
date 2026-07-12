@@ -153,7 +153,7 @@ nav{
 
 /* Spot Starts  */
 .spot-parent{
-    max-width: 1440px;
+    max-width: 100%;
     height: auto;
     margin: auto;
     display: flex;
@@ -257,3 +257,82 @@ nav{
     color: white;
 }
 /* Spot Ends  */
+
+/* Past Highlights Starts */
+.past-highlights{
+    max-width: 100%;
+    margin: 0 auto 80px;
+    padding: 0 60px;
+}
+
+.past-highlights-header{
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.past-highlights-title{
+    font-family: Inter;
+    color: #0D1B2A;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.past-highlights-description{
+    font-family: Inter;
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.highlights-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.highlight-card{
+    background: #F8FAFC;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.highlight-badge{
+    display: inline-block;
+    background: #DBEAFE;
+    color: #1D4ED8;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+
+.highlight-card h3{
+    font-family: Inter;
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.highlight-card p{
+    font-family: Inter;
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px){
+    .highlights-grid{
+        grid-template-columns: 1fr;
+    }
+}
+/* Past Highlights Ends */
